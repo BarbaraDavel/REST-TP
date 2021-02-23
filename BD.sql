@@ -1,1 +1,0 @@
-SELECT * FROM rest.localidad;
