@@ -27,10 +27,13 @@ Mis emprendimientos
             <th></th>
             <th>Nombre Emprendimiento</th>
             <th>Descripción</th>
+            <th>Logo</th>
             <th>Instagram</th>
             <th>Facebook</th>
             <th>Pagina Web</th>
             <th>Nro de teléfono</th>
+            <th>Calle</th>
+            <th>Numero</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -41,10 +44,13 @@ Mis emprendimientos
             <td>{{$loop->iteration}}</td>
             <td>{{ $emprendimiento->nombre }}</td>
             <td>{{ $emprendimiento->descripcion }}</td>
+            <td>{{ $emprendimiento->logo }}</td>
             <td>{{ $emprendimiento->instagram }}</td>
             <td>{{ $emprendimiento->facebook }}</td>
             <td>{{ $emprendimiento->sitio_web }}</td>
             <td>{{ $emprendimiento->nro_telefono }}</td>
+            <td>{{ $emprendimiento->calle }}</td>
+            <td>{{ $emprendimiento->calle_numero }}</td>
             <td>
 
             <a class="btn btn-success" href="{{ url('/emprendimiento/'.$emprendimiento->id. '/edit' ) }}">

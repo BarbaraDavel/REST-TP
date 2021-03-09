@@ -45,12 +45,13 @@ class EmprendimientoController extends Controller
 
         $campos=[
             'nombre'=> 'required|string|max:100',
-            //'descripcion'=> 'required|string|max:500',
-            //'direccion'=> 'required|string|max:100',
+            'descripcion'=> 'required|string|max:500',
             'instagram'=> 'required|string|max:100',
             'facebook'=> 'required|string|max:100',
             'sitio_web'=> 'required|string|max:100',
             'nro_telefono'=> 'required|string|max:100',
+            'calle'=> 'required|string|max:100',
+            'calle_numero'=> 'required|string|max:100',
         ];
         $Mensaje=["required"=>'El :attribute es requerido'];
 
@@ -105,12 +106,14 @@ class EmprendimientoController extends Controller
 
         $campos=[
             'nombre'=> 'required|string|max:100',
-            //'descripcion'=> 'required|string|max:500',
-           //'direccion'=> 'required|string|max:100',
+            'descripcion'=> 'required|string|max:500',
             'instagram'=> 'required|string|max:100',
             'facebook'=> 'required|string|max:100',
             'sitio_web'=> 'required|string|max:100',
             'nro_telefono'=> 'required|string|max:100',
+            'calle'=> 'required|string|max:100',
+            'calle_numero'=> 'required|string|max:100',
+
         ];
         $Mensaje=["required"=>'El :attribute es requerido'];
 

@@ -18,6 +18,15 @@ value="{{ isset ($emprendimiento->descripcion)?$emprendimiento->descripcion:old(
 </div>
 
 <div class="form-group">
+<label for="logo" class="control-label">{{'Logo'}} </label>
+<input type="text" class="form-control {{ $errors->has ('logo')?'is-invalid':'' }}" name="logo" id="logo" 
+value="{{ isset ($emprendimiento->logo)?$emprendimiento->logo:old('logo') }}">
+
+{!! $errors->first('logo','<div class="invalid-feedback">:message</div>') !!}
+
+</div>
+
+<div class="form-group">
 <label for="instagram" class="control-label">{{'Instagram'}} </label>
 <input type="instagram" class="form-control {{ $errors->has ('instagram')?'is-invalid':'' }}"name="instagram" id="instagram"
 value="{{ isset ($emprendimiento->instagram)?$emprendimiento->instagram:old('instagram') }}"> 
@@ -50,6 +59,23 @@ value="{{ isset ($emprendimiento->sitio_web)?$emprendimiento->sitio_web:old('sit
 value="{{ isset ($emprendimiento->nro_telefono)?$emprendimiento->nro_telefono:old('nro_telefono') }}">
 
 {!! $errors->first('nro_telefono','<div class="invalid-feedback">:message</div>') !!}
+
+</div>
+<div class="form-group">
+<label for="calle" class="control-label">{{'Calle'}} </label>
+<input type="calle" class="form-control {{ $errors->has ('calle')?'is-invalid':'' }}"name="calle" id="calle" 
+value="{{ isset ($emprendimiento->calle)?$emprendimiento->calle:old('calle') }}">
+
+{!! $errors->first('calle','<div class="invalid-feedback">:message</div>') !!}
+
+</div>
+
+<div class="form-group">
+<label for="calle_numero" class="control-label">{{'Calle Numero'}} </label>
+<input type="calle_numero" class="form-control {{ $errors->has ('calle_numero')?'is-invalid':'' }}"name="calle_numero" id="calle_numero" 
+value="{{ isset ($emprendimiento->calle_numero)?$emprendimiento->calle_numero:old('calle_numero') }}">
+
+{!! $errors->first('calle','<div class="invalid-feedback">:message</div>') !!}
 
 </div>
 

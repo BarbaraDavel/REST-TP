@@ -20,6 +20,7 @@
 </div>
 @endif
 
+
 <form action="{{ url('/emprendimiento')}}" class= "form-horizontal" method="post" enctype="multipart/form-data">
 {{ csrf_field() }}
 
