@@ -1,0 +1,60 @@
+/*Hoja de estilos propio*/
+:root{
+    --primario: #282D33;
+    --secundario: #4FDF0A;
+    --terciario: #8EDA98;
+    --cuarto: #39AD47;
+}
+body{
+    background-color: beige;
+    margin:0px;
+}
+.mi-nav{
+    background-color: var(--primario);
+
+}
+
+.logo {
+    background-image: url(../images/logo.png);
+    height: 53px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mi_span{
+    border-color:var(--primario);
+}
+
+.emprendimientos{
+    text-align: center;
+    color: var(--primario);
+}
+
+.emprendimientos img{
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    height: 53px;
+    width: 150px;
+}
+.emprendimientos h3{
+    font-size: 28px;
+    color: var(--primario);
+    font-style: medium;
+    font-weight: 500;
+    margin: 20px auto 25px
+}
+.emprendimientos p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primario);
+}
+.mi-footer{
+    text-align: center;
+    background-color: var(--primario);
+}
+.mi-footer h3{
+    font-size: 20px;
+        color:var(--terciario);
+        font-weight: 500;
+        margin: 25px auto 25px;
+}
