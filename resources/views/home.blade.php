@@ -21,7 +21,7 @@
     </div>
 </div> -->
 
-<div class="container-md">
+<div class="container">
     <div class="row">
         <div class="col-sm">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -50,46 +50,46 @@
             </button>
             </div>   
         </div>
-    </div>
-    <div class="container emprendimientos mt-4">
+    </div>   
+</div>
+<div class="container emprendimientos mt-auto">
         <h3>Emprendimientos</h3>
         <div class="row mt-4">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 1</p>
                 <img alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 2</p>
                 <img alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 3</p>
                 <img alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 3</p>
                 <img alt="" class="img-fluid">
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 1</p>
                 <img alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 2</p>
                 <img alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 3</p>
                 <img alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <p>Emprendimiento 3</p>
                 <img alt="" class="img-fluid">
             </div>
         </div>
     </div>
-</div>
 
 @endsection

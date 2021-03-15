@@ -68,7 +68,7 @@
                 </div>
         </div>
         </div> 
-            <main class=" d-flex flex-column h-100 py-4">
+            <main class="container py-4">
                 @yield('content')
             </main>
             <footer class="mt-auto w-100 mi-footer">
