@@ -1,3 +1,3 @@
 .logo { background-image: url(logo.png); height: 40px; min-width: 40px; background-repeat: no-repeat; background-size: cover; }
 
-.login { justify-content: justify-content flex-end; }
+body { background-color: beige; }
