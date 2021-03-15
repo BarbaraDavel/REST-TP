@@ -1,8 +1,13 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
-@import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+.logo {
+    background-image: url(logo.png);
+    height: 40px;
+    min-width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    justify-content: justify-content flex-end;
+}
